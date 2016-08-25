@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3AC0291D6EC45700F92351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AC0281D6EC45700F92351 /* main.m */; };
+		6D3AC02C1D6EC45700F92351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AC02B1D6EC45700F92351 /* AppDelegate.m */; };
+		6D3AC02F1D6EC45700F92351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AC02E1D6EC45700F92351 /* ViewController.m */; };
+		6D3AC0321D6EC45700F92351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC0301D6EC45700F92351 /* Main.storyboard */; };
+		6D3AC0341D6EC45700F92351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC0331D6EC45700F92351 /* Assets.xcassets */; };
+		6D3AC0371D6EC45700F92351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC0351D6EC45700F92351 /* LaunchScreen.storyboard */; };
+		6D3AC0421D6EC45700F92351 /* Go_Mont_KiaraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AC0411D6EC45700F92351 /* Go_Mont_KiaraTests.m */; };
+		6D3AC04D1D6EC45700F92351 /* Go_Mont_KiaraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AC04C1D6EC45700F92351 /* Go_Mont_KiaraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D3AC03E1D6EC45700F92351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D3AC01C1D6EC45700F92351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3AC0231D6EC45700F92351;
+			remoteInfo = "Go Mont Kiara";
+		};
+		6D3AC0491D6EC45700F92351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D3AC01C1D6EC45700F92351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3AC0231D6EC45700F92351;
+			remoteInfo = "Go Mont Kiara";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D3AC0241D6EC45700F92351 /* Go Mont Kiara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Mont Kiara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3AC0281D6EC45700F92351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D3AC02A1D6EC45700F92351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D3AC02B1D6EC45700F92351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D3AC02D1D6EC45700F92351 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D3AC02E1D6EC45700F92351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D3AC0311D6EC45700F92351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D3AC0331D6EC45700F92351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D3AC0361D6EC45700F92351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D3AC0381D6EC45700F92351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3AC03D1D6EC45700F92351 /* Go Mont KiaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Mont KiaraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3AC0411D6EC45700F92351 /* Go_Mont_KiaraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Go_Mont_KiaraTests.m; sourceTree = "<group>"; };
+		6D3AC0431D6EC45700F92351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3AC0481D6EC45700F92351 /* Go Mont KiaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Mont KiaraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3AC04C1D6EC45700F92351 /* Go_Mont_KiaraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Go_Mont_KiaraUITests.m; sourceTree = "<group>"; };
+		6D3AC04E1D6EC45700F92351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D3AC0211D6EC45700F92351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3AC03A1D6EC45700F92351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3AC0451D6EC45700F92351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D3AC01B1D6EC45700F92351 = {
+			isa = PBXGroup;
+			children = (
+				6D3AC0261D6EC45700F92351 /* Go Mont Kiara */,
+				6D3AC0401D6EC45700F92351 /* Go Mont KiaraTests */,
+				6D3AC04B1D6EC45700F92351 /* Go Mont KiaraUITests */,
+				6D3AC0251D6EC45700F92351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D3AC0251D6EC45700F92351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AC0241D6EC45700F92351 /* Go Mont Kiara.app */,
+				6D3AC03D1D6EC45700F92351 /* Go Mont KiaraTests.xctest */,
+				6D3AC0481D6EC45700F92351 /* Go Mont KiaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D3AC0261D6EC45700F92351 /* Go Mont Kiara */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AC02A1D6EC45700F92351 /* AppDelegate.h */,
+				6D3AC02B1D6EC45700F92351 /* AppDelegate.m */,
+				6D3AC02D1D6EC45700F92351 /* ViewController.h */,
+				6D3AC02E1D6EC45700F92351 /* ViewController.m */,
+				6D3AC0301D6EC45700F92351 /* Main.storyboard */,
+				6D3AC0331D6EC45700F92351 /* Assets.xcassets */,
+				6D3AC0351D6EC45700F92351 /* LaunchScreen.storyboard */,
+				6D3AC0381D6EC45700F92351 /* Info.plist */,
+				6D3AC0271D6EC45700F92351 /* Supporting Files */,
+			);
+			path = "Go Mont Kiara";
+			sourceTree = "<group>";
+		};
+		6D3AC0271D6EC45700F92351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AC0281D6EC45700F92351 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D3AC0401D6EC45700F92351 /* Go Mont KiaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AC0411D6EC45700F92351 /* Go_Mont_KiaraTests.m */,
+				6D3AC0431D6EC45700F92351 /* Info.plist */,
+			);
+			path = "Go Mont KiaraTests";
+			sourceTree = "<group>";
+		};
+		6D3AC04B1D6EC45700F92351 /* Go Mont KiaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AC04C1D6EC45700F92351 /* Go_Mont_KiaraUITests.m */,
+				6D3AC04E1D6EC45700F92351 /* Info.plist */,
+			);
+			path = "Go Mont KiaraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D3AC0231D6EC45700F92351 /* Go Mont Kiara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3AC0511D6EC45700F92351 /* Build configuration list for PBXNativeTarget "Go Mont Kiara" */;
+			buildPhases = (
+				6D3AC0201D6EC45700F92351 /* Sources */,
+				6D3AC0211D6EC45700F92351 /* Frameworks */,
+				6D3AC0221D6EC45700F92351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go Mont Kiara";
+			productName = "Go Mont Kiara";
+			productReference = 6D3AC0241D6EC45700F92351 /* Go Mont Kiara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D3AC03C1D6EC45700F92351 /* Go Mont KiaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3AC0541D6EC45700F92351 /* Build configuration list for PBXNativeTarget "Go Mont KiaraTests" */;
+			buildPhases = (
+				6D3AC0391D6EC45700F92351 /* Sources */,
+				6D3AC03A1D6EC45700F92351 /* Frameworks */,
+				6D3AC03B1D6EC45700F92351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D3AC03F1D6EC45700F92351 /* PBXTargetDependency */,
+			);
+			name = "Go Mont KiaraTests";
+			productName = "Go Mont KiaraTests";
+			productReference = 6D3AC03D1D6EC45700F92351 /* Go Mont KiaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D3AC0471D6EC45700F92351 /* Go Mont KiaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3AC0571D6EC45700F92351 /* Build configuration list for PBXNativeTarget "Go Mont KiaraUITests" */;
+			buildPhases = (
+				6D3AC0441D6EC45700F92351 /* Sources */,
+				6D3AC0451D6EC45700F92351 /* Frameworks */,
+				6D3AC0461D6EC45700F92351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D3AC04A1D6EC45700F92351 /* PBXTargetDependency */,
+			);
+			name = "Go Mont KiaraUITests";
+			productName = "Go Mont KiaraUITests";
+			productReference = 6D3AC0481D6EC45700F92351 /* Go Mont KiaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D3AC01C1D6EC45700F92351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Uncover Technology";
+				TargetAttributes = {
+					6D3AC0231D6EC45700F92351 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6D3AC03C1D6EC45700F92351 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6D3AC0231D6EC45700F92351;
+					};
+					6D3AC0471D6EC45700F92351 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6D3AC0231D6EC45700F92351;
+					};
+				};
+			};
+			buildConfigurationList = 6D3AC01F1D6EC45700F92351 /* Build configuration list for PBXProject "Go Mont Kiara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D3AC01B1D6EC45700F92351;
+			productRefGroup = 6D3AC0251D6EC45700F92351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D3AC0231D6EC45700F92351 /* Go Mont Kiara */,
+				6D3AC03C1D6EC45700F92351 /* Go Mont KiaraTests */,
+				6D3AC0471D6EC45700F92351 /* Go Mont KiaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D3AC0221D6EC45700F92351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3AC0371D6EC45700F92351 /* LaunchScreen.storyboard in Resources */,
+				6D3AC0341D6EC45700F92351 /* Assets.xcassets in Resources */,
+				6D3AC0321D6EC45700F92351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3AC03B1D6EC45700F92351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3AC0461D6EC45700F92351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D3AC0201D6EC45700F92351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3AC02F1D6EC45700F92351 /* ViewController.m in Sources */,
+				6D3AC02C1D6EC45700F92351 /* AppDelegate.m in Sources */,
+				6D3AC0291D6EC45700F92351 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3AC0391D6EC45700F92351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3AC0421D6EC45700F92351 /* Go_Mont_KiaraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3AC0441D6EC45700F92351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3AC04D1D6EC45700F92351 /* Go_Mont_KiaraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D3AC03F1D6EC45700F92351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D3AC0231D6EC45700F92351 /* Go Mont Kiara */;
+			targetProxy = 6D3AC03E1D6EC45700F92351 /* PBXContainerItemProxy */;
+		};
+		6D3AC04A1D6EC45700F92351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D3AC0231D6EC45700F92351 /* Go Mont Kiara */;
+			targetProxy = 6D3AC0491D6EC45700F92351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D3AC0301D6EC45700F92351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D3AC0311D6EC45700F92351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D3AC0351D6EC45700F92351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D3AC0361D6EC45700F92351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D3AC04F1D6EC45700F92351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D3AC0501D6EC45700F92351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D3AC0521D6EC45700F92351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Go Mont Kiara/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wapever.Go-Mont-Kiara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D3AC0531D6EC45700F92351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Go Mont Kiara/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wapever.Go-Mont-Kiara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D3AC0551D6EC45700F92351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Go Mont KiaraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wapever.Go-Mont-KiaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Mont Kiara.app/Go Mont Kiara";
+			};
+			name = Debug;
+		};
+		6D3AC0561D6EC45700F92351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Go Mont KiaraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wapever.Go-Mont-KiaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Mont Kiara.app/Go Mont Kiara";
+			};
+			name = Release;
+		};
+		6D3AC0581D6EC45700F92351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Go Mont KiaraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wapever.Go-Mont-KiaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Go Mont Kiara";
+			};
+			name = Debug;
+		};
+		6D3AC0591D6EC45700F92351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Go Mont KiaraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wapever.Go-Mont-KiaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Go Mont Kiara";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D3AC01F1D6EC45700F92351 /* Build configuration list for PBXProject "Go Mont Kiara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3AC04F1D6EC45700F92351 /* Debug */,
+				6D3AC0501D6EC45700F92351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D3AC0511D6EC45700F92351 /* Build configuration list for PBXNativeTarget "Go Mont Kiara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3AC0521D6EC45700F92351 /* Debug */,
+				6D3AC0531D6EC45700F92351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D3AC0541D6EC45700F92351 /* Build configuration list for PBXNativeTarget "Go Mont KiaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3AC0551D6EC45700F92351 /* Debug */,
+				6D3AC0561D6EC45700F92351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D3AC0571D6EC45700F92351 /* Build configuration list for PBXNativeTarget "Go Mont KiaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3AC0581D6EC45700F92351 /* Debug */,
+				6D3AC0591D6EC45700F92351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D3AC01C1D6EC45700F92351 /* Project object */;
+}
