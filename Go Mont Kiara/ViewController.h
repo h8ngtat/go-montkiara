@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <GoogleMaps/GoogleMaps.h>
+#import <GooglePlacePicker/GMSPlacePicker.h>
+#import <CoreLocation/CoreLocation.h>
+#import <Google/SignIn.h>
+#import "YALFoldingTabBar.h"
 
+
+@interface ViewController : UIViewController <GIDSignInUIDelegate, YALTabBarDelegate>
+
+
+@property(nonatomic)CLLocationManager *locationManager;
+
+-(void) updateSignedInUser: (NSString*)email;
 
 @end
 

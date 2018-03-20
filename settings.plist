@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>authority</key>
+	<string>https://login.microsoftonline.com/common</string>
+	<key>tenant</key>
+	<string>DemoAPIM5187.onmicrosoft.com</string>
+	<key>clientId</key>
+	<string>2aecbf7b-f263-4a41-a268-a10d06620ff5</string>
+	<key>redirectUri</key>
+	<string>com.wapever.Go-Mont-Kiara.5000://com.wapever.Go-Mont-Kiara</string>
+	<key>resourceString</key>
+	<string>https://h8ngtat.azure-api.net</string>
+	<key>taskWebApi</key>
+	<string>https://h8ngtat.azure-api.net/calc/list</string>
+	<key>userId</key>
+	<string>h8ngtat@gmail.com</string>
+</dict>
+</plist>

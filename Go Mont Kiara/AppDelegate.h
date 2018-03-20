@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <Google/SignIn.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate, GIDSignInDelegate
+>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) CLLocationManager *locationManager;
+@property CLProximity lastProximity;
 
 @end
 
