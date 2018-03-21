@@ -7,14 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NXOAuth2.h"
-
 
 
 
 @interface AppData : NSObject
 
-@property (strong) NXOAuth2Account *userItem;
+//@property (strong) NXOAuth2Account *userItem;
 @property (strong) NSString* taskWebApiUrlString;
 @property (strong) NSString* authority;
 @property (strong) NSString* clientId;

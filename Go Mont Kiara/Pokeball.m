@@ -23,7 +23,6 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
-        //NSLog(@"------->Initialization");
         //self.opaque = NO;
         self.backgroundColor = [UIColor clearColor];
 

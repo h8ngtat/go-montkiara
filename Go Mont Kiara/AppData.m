@@ -7,7 +7,6 @@
 //
 
 #import "AppData.h"
-#import "NXOAuth2.h"
 
 @implementation AppData
 
